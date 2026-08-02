@@ -11,7 +11,7 @@ public class RestaurantBilling {
 
     void calculateBill(double amount, double packingCharge) {
         totalOrders++;
-        double total = amount + packingCharge;
+         double total = amount + packingCharge;
         System.out.println("Takeaway Order");
         System.out.println("Bill = Rs. " + total);
         System.out.println();
