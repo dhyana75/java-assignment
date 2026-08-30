@@ -43,7 +43,7 @@ class FoodDeliveryDemo {
 
         details.displayOrders();
 
-        DeliveryStatus preparing = new DeliveryStatus() {
+        DeliveryStatusDemo preparing = new DeliveryStatusDemo() {
             public void updateStatus() {
                 System.out.println("Status: Order is being prepared.");
             }
